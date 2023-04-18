@@ -1,0 +1,81 @@
+{
+	"required": {
+		"alchemyKey": "dx_Qr17fkbKRzxAi663kD6bNVEp3guRI",
+		"followAddress": [
+			"0x2BCD62BD2A797bAa1053068F71D802ab27777777"
+		]
+	},
+	"optional": {
+		"password": "199123",
+		"runMode": "pending",
+		"mintToMode": "self",
+		"maxPriority": 3,
+		"maxGasPrice": 50,
+		"maxValue": 0,
+		"autoGas": {
+			"enable": false,
+			"gasMode": "fast"
+		},
+		"maxGas_USD": {
+			"enable": true,
+			"value": 10
+		},
+		"useAccount": {
+			"enable": false,
+			"value": 0.005
+		},
+		"multiAccountConfig": {
+			"enable": true,
+			"gasGearsList": [
+				10,
+				15,
+				35,
+				50
+			],
+			"useAccountGearsList": [
+				10,
+				5,
+				5,
+				5
+			]
+		},
+		"messagePushConfig": {
+			"enable": false,
+			"pushFlag_dc": false,
+			"discordKey": "",
+			"pushFlag_bark": false,
+			"barkKey": ""
+		},
+		"pause": {
+			"enable": false,
+			"pauseTime": "00:00",
+			"resumeTime": "00:00"
+		},
+		"followAddressNum": {
+			"enable": false,
+			"value": 1
+		},
+		"contractBlacklist": [
+			"0x00000000006c3852cbef3e08e8df289169ede581",
+			"0x74312363e45dcaba76c59ec49a7aa8a65a67eed3",
+			"0x59728544b08ab483533076417fbbb2fd0b17ce3a",
+			"0x084b1c3c81545d370f3634392de611caabff8148",
+			"0x83c8f28c26bf6aaca652df1dbbe0e1b56f8baba2",
+			"0x0a267cf51ef038fc00e71801f5a524aec06e4f07",
+			"0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6",
+			"0x283Af0B28c62C092C9727F1Ee09c02CA627EB7F5",
+			"0x00000000000111AbE46ff893f3B2fdF1F759a8A8"
+		],
+		"methodBlacklist": [
+			"0x",
+			"0xa22cb465",
+			"0x42842e0e",
+			"0x23b872dd",
+			"0x095ea7b3"
+		]
+	},
+	"test": {
+		"enable": false,
+		"testnet": "goerli"
+	}
+}
